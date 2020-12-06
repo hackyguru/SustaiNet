@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SustaiNet</title>
+    <link rel="stylesheet" href="geist.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body class="dark-theme">
+    <h4>SustaiNet</h4>
+    <input id="activateBtn" type="checkbox" class="toggle">Status (ON/OFF)</input>
+    <hr />
+    <h5>Settings</h5>
+    <div style="text-align: left;">
+        <input id="colorReductionBtn" type="checkbox" class="toggle">Color Saver</input><br>
+        <input id="collectCacheBtn" type="checkbox" class="toggle">Reuse Cache</input>
+    </div>
+    <hr />
+    <div style="display: flex; align-items: center; justify-content: space-between;">
+    <h5>Caches</h5>
+    <h6 style="text-align: right;"><a id="clearCacheBtn" style="color: #00ffff; text-align: left;">Delete Cache History</a></h6>
+    </div>
+    <ul id="cacheList" style="text-align: left;"></ul>
+    <hr />
+    <p style="font-size: 12px">Made at HackDuke 2020</p>
+    <script src="popup.js"></script>
+</body>
+</html>
